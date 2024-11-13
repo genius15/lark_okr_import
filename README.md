@@ -17,7 +17,7 @@
 | user_key |必填，需要导入的人的飞书项目 userkey|
 | okr_period_id |必填，okr 周期id，可以通过 okr 获取周期接口来获取，因为不常用，所以这里做成了直接输入|
 |project_key | 必填，空间key|
-| objective_work_item_type | objective 的工作项type key|
+| objective_work_item_type | 必填，objective 的工作项type key|
 |objective_templ=2186825| 必填，objective 使用的模板id|
 |objective_id_field | 必填，okr 的数据id字段，该字段在执行重复导入时用来判断是更新还是新建 objective|
 |objective_assignee_field|选填，okr 指派人存储字段，多选人员字段|
