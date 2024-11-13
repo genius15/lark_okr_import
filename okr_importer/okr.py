@@ -4,7 +4,7 @@ import config
 
 
 def get_okr_by_user(user_union_id,period_ids):
-    larkapi = LarkProxy(config.lark_app.get("key"), config.lark_app.get("secret"))
+    larkapi = LarkProxy(config.lark_app.get("app_key"), config.lark_app.get("app_secret"))
     return larkapi.get_okr_by_user(user_union_id,period_ids)
 
 
